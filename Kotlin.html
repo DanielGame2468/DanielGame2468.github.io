@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head><title>Kotlin</title>
+<link rel="stylesheet" type="text/css"
+href="style.css">
+</head>
+<body>
+<div id="header">
+<div class="container">
+<a id="header-title" href="index.html">Danny's Blog</a>
+<ul id="header-nav">
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="mailto:danieldan2468@gmail.com">Contact</a></li>
+</ul>
+</div>
+</div>
+
+<div id="content">
+<div class="post-container">
+<div class="post">
+<div class="post-author">
+<img src="Daniel1.jpg" width="150" height="150">
+<span><strong>DanielGame2468 🎮💻📱</strong></span>
+<p><a href="https://facebook.com/danielking2468">Daniel Daramola</a></p>
+</div>
+<p class="post-date">21/06/2020 11:00 AM</p>
+<h1 class="post-title">Overview</h1>
+<h3 class="post-title">Using Kotlin for Server-side Development</h3>
+<div class="post-content">
+Kotlin is a great fit for developing server-side applications, allowing you to write concise and
+expressive code while maintaining full compatibility with existing Java-based technology stacks
+and a smooth learning curve:<br><br>
+
+<b>Expressiveness:</b> Kotlin's innovative language features, such as its support for type-safe
+builders and delegated properties, help build powerful and easy-to-use abstractions.<br><br>
+
+<b>Scalability:</b> Kotlin's support for coroutines helps build server-side applications that scale to
+massive numbers of clients with modest hardware requirements.<br><br>
+
+<b>Interoperability:</b> Kotlin is fully compatible with all Java-based frameworks, which lets you stay
+on your familiar technology stack while reaping the beneDts of a more modern language.<br><br>
+
+<b>Migration:</b> Kotlin supports gradual, step by step migration of large codebases from Java to
+Kotlin. You can start writing new code in Kotlin while keeping older parts of your system in
+Java.<br><br>
+
+<b>Tooling:</b> In addition to great IDE support in general, Kotlin oFers framework-speciDc tooling
+(for example, for Spring) in the plugin for IntelliJ IDEA Ultimate.<br><br>
+
+<b>Learning Curve:</b> For a Java developer, getting started with Kotlin is very easy. The automated
+Java to Kotlin converter included in the Kotlin plugin helps with the Drst steps. Kotlin Koans
+offer a guide through the key features of the language with a series of interactive exercises.
+
+<h3 class="post-title">Frameworks for Server-side Development with Kotlin</h3>
+<div class="post-content">
+Spring makes use of Kotlin's language features to oFer more concise APIs, starting with
+version 5.0. The online project generator allows you to quickly generate a new project in
+Kotlin.<br><br>
+
+Vert.x, a framework for building reactive Web applications on the JVM, oFers dedicated
+support for Kotlin, including full documentation.<br><br>
+
+Ktor is a framework built by JetBrains for creating Web applications in Kotlin, making use of
+coroutines for high scalability and oFering an easy-to-use and idiomatic API.<br><br>
+
+kotlinx.html is a DSL that can be used to build HTML in a Web application. It serves as an
+alternative to traditional templating systems such as JSP and FreeMarker.<br><br>
+
+Micronaut is a modern, JVM-based, full-stack framework for building modular, easily testable
+microservice and serverless applications. It comes with a lot of built-in, handy features.<br><br>
+
+Javalin is a very lightweight web framework for Kotlin and Java which supports WebSockets,
+HTTP2 and async requests.<br><br>
+
+The available options for persistence include direct JDBC access, JPA, as well as using NoSQL
+databases through their Java drivers. For JPA, the kotlin-jpa compiler plugin adapts Kotlincompiled 
+classes to the requirements of the framework.<br><br>
+
+<h3 class="post-title">Using Kotlin for Android Development</h3>
+<div class="post-content">
+Android mobile development has been Kotlin-Drst since Google I/O in 2019.
+Using Kotlin for Android development, you can beneDt from:<br><br>
+
+<b>Less code combined with greater readability.</b> Spend less time writing your code and
+working to understand the code of others.<br><br>
+
+<b>Mature language and environment.</b> Since its creation in 2011, Kotlin has developed
+continuously, not only as a language but as a whole ecosystem with robust tooling. Now it's
+seamlessly integrated in Android Studio and is actively used by many companies for
+developing Android applications.<br><br>
+
+<b>Kotlin support in Android Jetpack and other libraries.</b> KTX extensions add Kotlin language
+features, such as coroutines, extension functions, lambdas, and named parameters, to existing
+Android libraries.<br><br>
+
+<b>Interoperability with Java.</b> You can use Kotlin along with the Java programming language in
+your applications without needing to migrate all your code to Kotlin.<br><br>
+
+<b>Support for multiplatform development.</b> You can use Kotlin for developing not only
+Android but also iOS, backend, and web applications. Enjoy the beneDts of sharing the
+common code among the platforms.<br><br>
+
+<b>Code safety.</b> Less code and better readability lead to fewer errors. The Kotlin compiler
+detects these remaining errors, making the code safe.<br><br>
+
+<b>Easy learning.</b> Kotlin is very easy to learn, especially for Java developers.<br><br>
+
+<b>Big community.</b> Kotlin has great support and many contributions from the community, which
+is growing all over the world. According to Google, over 60% of the top 1000 apps on the Play
+Store use Kotlin.
+
+<h3 class="post-title">Kotlin JavaScript Overview</h3>
+<div class="post-content">
+Kotlin provides the ability to target JavaScript. It does so by transpiling Kotlin to JavaScript. The
+current implementation targets ECMAScript 5.1 but there are plans to eventually target
+ECMAScript 2015 as well.<br>
+
+When you choose the JavaScript target, any Kotlin code that is part of the project as well as the
+standard library that ships with Kotlin is transpiled to JavaScript. However, this excludes the JDK
+and any JVM or Java framework or library used. Any Dle that is not Kotlin will be ignored during
+compilation.<br>
+
+The Kotlin compiler tries to comply with the following goals:<br><br>
+
+Provide output that is optimal in size<br><br>
+
+Provide output that is readable JavaScript<br><br>
+
+Provide interoperability with existing module systems<br><br>
+
+Provide the same functionality in the standard library whether targeting JavaScript or the JVM
+(to the largest possible degree).
+
+<h3 class="post-title">How it can be used</h3>
+<div class="post-content">
+You may want to compile Kotlin to JavaScript in the following scenarios:<br><br>
+
+Creating Kotlin code that targets client-side JavaScript<br><br>
+
+<b>Interacting with DOM elements.</b> Kotlin provides a series of statically typed interfaces to
+interact with the Document Object Model, allowing creation and update of DOM elements.<br><br>
+
+<b>Interacting with graphics such as WebGL.</b> You can use Kotlin to create graphical
+elements on a web page using WebGL.<br><br>
+
+Creating Kotlin code that targets server-side JavaScript<br><br>
+
+<b>Working with server-side technology.</b> You can use Kotlin to interact with server-side
+JavaScript such as Node.js<br><br>
+
+Kotlin can be used together with existing third-party libraries and frameworks, such as jQuery or
+React. To access third-party frameworks with a strongly-typed API, you can convert TypeScript
+deDnitions from the DeDnitely Typed type deDnitions repository to Kotlin using the dukat tool.
+Alternatively, you can use the dynamic type to access any framework without strong typing.<br><br>
+
+JetBrains develops and maintains several tools speciDcally for the React community: React
+bindings as well as Create React Kotlin App. The latter helps you start building React apps with
+Kotlin with no build conDguration.<br><br>
+
+Kotlin is compatible with CommonJS, AMD and UMD, making interaction with diFerent module
+systems straightforward.
+
+
+<h3 class="post-title"></h3>
+<div class="post-content">
+</div>
+</div>
+</div>
+<div id="footer">
+<div class="container">
+<div class="column">
+<h4>My Links</h4>
+<p>
+<div class="imgs"><a href="https://facebook.com/danielking2468"><img src="FB.png" width="40" height="38"</img></a>
+<a href="https://twitter.com/Daniel_king01"><img src="Twitter.jpeg" width="40" height="38"></img></a>
+<a href="https://instagram.com/danieldan2468"><img src="Instagram.jpg" width="40" height="38"></img></a>
+<a href="https://api.whatsapp.com/send?phone=2347013925370&text=&source=&data=&app_absent="><img src="WhatsApp.png" width="40" height="38"></img></a>
+</p>
+</div>
+</div>
+<div>
+<h4>My Story</h4>
+<p>Hi there! I'm an Aspiring Web Developer.</p>
+</div>
+</div>
+</div>
+</body>
